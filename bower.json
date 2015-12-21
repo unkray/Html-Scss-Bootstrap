@@ -1,0 +1,14 @@
+{
+  "name": "project",
+  "version": "",
+  "homepage": "",
+  "authors": [
+    ""
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "jquery": "2.1.4",
+    "modernizr": "2.7.2",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}

@@ -1,0 +1,80 @@
+$strict-normalize: true;
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: false;
+$legacy-support-for-ie8: false;
+$inline-block-alignment: top;
+   
+ 
+// font fase
+$font-family-regular: "open_sansregular", Arial, Helvetica, Garuda, sans-serif;
+$font-family-semibold: "open_sanssemibold", Arial, Helvetica, Garuda, sans-serif;
+$font-family-light: "open_sanslight", Arial, Helvetica, Garuda, sans-serif;
+$font-family-bold: "open_sansbold", Arial, Helvetica, Garuda, sans-serif;
+$font-base-family: $font-family-regular;
+  
+
+// font size
+$font-base-size: 14px;
+$font-size-extra-small: 12px;
+$font-size-regular-small: 16px;
+$font-size-regular: 18px;
+$font-size-regular-big: 20px;
+$font-size-big: 24px;
+$font-base-size-unit: 18px;
+
+//font style
+$font-style-italic: italic;  
+
+
+// font width
+$weight-normal: 400;
+$weight-semi-bold: 600;
+$weight-bold: 700;
+  
+// paths
+$dir: "../img";
+$dirIc: "../img/icons";
+
+// colors
+$clrs: ( 
+  // White
+     white: #fff,
+  // Silver
+     silver: #c0c0c0,
+  // Grey
+     grey: #808080,
+  // Black
+     black: #000,
+  // Red
+     red: #f00,
+  // Maroon
+     maroon: #800000,
+  // Yellow
+     yellow: #ff0,
+  // Orange
+     orange: #f60,
+  // Olive
+     olive: #808000,
+  // Brown
+     brown: #7f401d,
+  // Lime
+     lime: #0f0,
+  // Green
+     green: #008000,
+  // Aqua
+     aqua: #0ff,
+  // Blue
+     blue: #00f,
+  // Navy
+     navy: #008,
+  // Pink
+     pink: #f0f,
+  // Violet
+     violet: #808
+);
+
+$screen-lg: "only screen and (min-width: 1200px)";
+$screen-md: "only screen and (min-width: 992px)";
+$screen-sm: "only screen and (min-width: 768px)";
+$screen-ex: "only screen and (min-width: 480px)";
+$retina: "(min-resolution: 144dpi), (min-resolution: 1.5 dppx)";
